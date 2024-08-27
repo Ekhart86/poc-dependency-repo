@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
 class TestWidget extends StatelessWidget {
-  final String name;
+  final String count;
 
-  const TestWidget({super.key, required this.name});
+  const TestWidget({super.key, required this.count});
 
   @override
   Widget build(BuildContext context) {
-    return Text(name);
+    return Text(count, style: TextStyle(fontSize: 40));
   }
 }
